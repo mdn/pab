@@ -1,0 +1,148 @@
+# MDN Product Advisory Board Meeting — Executive Summary
+
+You can read the [detailed meeting notes here](2018-01-notes.md).
+
+The first in-person MDN Product Advisory board meeting took place over 2 days (11 & 12 January, 2018) in London.  
+
+Presented the final MDN 2017 metrics. Most questions revolved around localization and understanding the global audience of MDN (including growth potential), volunteer contribution, and what content on MDN gets the most traffic. Moved on to the draft 2018 roadmap, and Kadir went into depth on several core themes for the year:
+
+* Moved code samples to the top of the page and introduced interactive examples for JavaScript in 2017. 2018 will focus on completing interactive samples for HTML, CSS and Web APIs.
+* 80% of MDN traffic comes through search; improving results pages will have a huge impact. In 2017, we did SEO audit and experiments. 2018 will execute successful SEO experiments and focus on performance, including a performance audit and exploring using a CDN. Look into making code samples available in rich search results across browsers, with help from PAB members.
+* Explore making it easier for users to search, browse and learn if they don’t know the specific method, property, API they are looking for (also could include use case browsing). Don’t have a specific plan or set of topics yet.
+* Potential to incorporate compatibility data in browser dev tools, editors, or enable developers to create tools based on this data.
+* MDN had 50-60% traffic and contribution growth in 2017 but Mozilla staff and program budget were static (same in 2018, too). Looking for ways to fund MDN beyond what Mozilla invests today.
+* Discuss benefits and challenges of moving to GitHub as the backend for all of MDN. Compatibility data, interactive samples, and macros/scripts are currently on GitHub, so we have experimented successfully with this.
+
+Currently, 9 Mozilla paid staff work full time on MDN: a product manager, 3 developers, 4 content writers (including a content lead), and a project manager (who also does content reviews). ~USD$500k program budget. Staff uses “agile” process; a 12 day sprint then 3 days to plan next sprint goals, do a retrospective, and have a “breather” day. MDN also uses an opportunity assessment process. PAB input is expected to be rolled into this system— Mozilla team owns prioritization.
+
+Start working group on “generic”  PWA definition for MDN. Discussed frameworks documentation; decided it’s fine to introduce the main concepts in the learning area but not document the frameworks themselves. Based on feedback from Samsung, will review adding Web Bluetooth and Web MIDI to content roadmap. Web Components are a priority for Microsoft; Patrick will do some triage and give priorities. Finally, we decided members will come to each meeting with content priorities prepared for discussion.
+
+Created a PAB repo on GitHub to track work, publish meeting notes, etc.
+Day 2 started with setting up unconference-style breakout sessions to discuss some of the issues that we thought needed more work.
+
+## Session 1: Compatibility Data.
+Google team going to China soon. Robert will follow up with findings when they get back.
+Currently migrating compat data from hand-written HTML tables to machine-readable JSON. 40% there (HTML, HTTP, JS built-ins all done, CSS mostly done). WebAPIs are the largest content area and will be done in 2018. Maintaining MDN Browser Compatibility Data requires manual labor (dues to hand witten HTML). Will investigate (with help from Google & MS) automatic comparisons based on Web Platform Tests (WPT).
+Asked the board to commit to updating data after each browser release. Members will check what their orgs are actually doing and implement a system to do updates if not doing already. Everyone will report back on this next meeting. Asked PAB members and their teams for help reviewing compatibility data PRs. General willingness to help.
+
+## Session 2: Wordsmith MDN mission statement
+Start: "provide people with the information they need and teach them what they need to know to build delightful experiences on the open web." Finish: "Inform and guide people with the most comprehensive information they need to build first class, cross-platform experiences on the open web."
+
+## Session 3 : Moving MDN's backend functionality to GitHub
+Discussed pros and cons, decided the cons have mitigations. General consensus is to move forward with investigating. Next steps will be to socialize with the MDN community and investigate what this would take to move forward. Would not start working on this until the second half of 2018.
+
+## Session 4: Data outside of MDN
+Opportunities for using data outside of MDN include data in various browser devtools, Lighthouse/Sonar, extensions, search result rich snippets. Meggin is working on a Chrome extension using the current browser compatibility data, Patrick took actions to start discussion about general integration with the MS Sonar team and explore creating Edge version of the extension. Members took various action items around investigating including browser compat data short summary and/or code samples in Google or Bing search results.
+
+## Session 5: Membership and revenue
+Mozilla gives MDN a budget and headcount each year, but if we want to speed up implementation of specific capabilities or content we will have generate additional, external funding for it. Any revenue generated from MDN will be invested back into MDN (not go into Mozilla general fund).  Members brainstormed a lot of ideas. Action item taken to spend time to formulate these a little more before presenting as opportunities.
+
+## Session 6: Next PAB Meeting
+Original charter called for a meeting every quarter, 3 via conference call and one in-person per year (in December or January). Members want more than one in-person meeting per year, so will have 2 in-person meetings each year (one in Europe, one in North America). Next virtual meeting in March, next face-to-face in July.
+
+## Session 7: W3C & MDN
+Had a quick conversation about how standardization changes should be communicated to MDN writers. In an ideal world, there would be the expectation of filing a bug to change the associated MDN page. Will set up meeting with W3C to discuss. Also of interest is the concept of API skeleton pages and adding a button on the experimental banner that allows users to give feedback to the spec writers
+
+## Asks of the MDN team from the Board:
+* Board members would like to see additional metrics:
+* Comparison US vs. Europe as a whole
+* Numbers of mdn visitors compared to % of developer population per country
+* Metrics by language as opposed to by country
+* Would like to be able to see/track how specific things (new content, functionality rollouts, design changes, etc.) drive traffic increases
+* Request to get a better understanding of MDN audience growth opportunities across the globe.
+* Could use better sources of data on global developer population. If anyone has suggestions we’d love to all use the same metrics (no real answer here)
+* Request to publish public guidelines on how/why MDN engages contractors for content and dev work.
+* Request to make sure that what comes out of the PAB is rolled into the working cycle of MDN, specifically the opportunity reviews and work prioritization. Figure out how to get PAB members at the weekly opportunity assessment meeting (maybe special edition after PAB meetings to specifically discuss new opportunities brought up by the board?). Clarified that the Mozilla team will continue to own prioritization of the requests. Google team was interested in learning more about how MDN opportunity assessment model; Kadir will set up some time to share with the Google team
+* Board requested more information and raw data from the results of remote user testing sessions. Kadir will see if future user terms/agreement can be updated to allow sharing interview videos with the board.
+* Requested a view of the long-term cost of content - creating it but also maintenance. Chris Mills committed to figuring out a formula for determining lifetime cost & lifetime value.
+* Create a summary doc that covers changes to the quarterly priorities that came out of the PAB meeting that is shared publicly. Also make sure that there is a way for people to surface things they want the board to review/cover/provide feedback on.
+* Need a process for getting involved in the actual work, which is beyond the scope of the board. For example, an extension could be a personal project vs an MDN platform project. Document in the repo itself what the purpose is and the boundaries are, and include link to the projects.
+
+## Commitments made by board members:
+* Meggin (Google) is working on a compatibility data extension for Chrome, similar to the one built by a contributor for Firefox. Patrick will look into possibility of extension for Edge.
+* Ask for the board. For each Firefox release Mozilla updates content and compat data based on what’s new in the release. Ask representatives from the other browsers to do this, too. Members from MS, Google, Samsung will check to see what their orgs are actually doing and implement a system to do this if not. Will report back on this next meeting on process and point person.
+* Request made to board members to help recruit remote user testing participants outside of/beyond MDN. Will add as an action item for members and follow up on the mailing list; review in next PAB meeting to check up on outcome.
+* Ask for the board: PAB members and their teams help review browser compatibility data PR’s.
+* Board members committed to investigate  Chrome and Edge versions of the Firefox compatibility extension.
+* Board members committed to investigating lighthouse & sonar tests for browser compat. Sonar is the MS equivalent.
+* Board members committed to helping generate and evaluate ideas for generating revenue on/from MDN.
+* Board will explore idea of a joint conference under the MDN brand.
+* Board decided to have 2 face to face board meetings each year, as opposed to only one as proposed in the original charter. Charter will be updated.
+
+## Opportunities/Proposals from the board:
+* Opportunity to review (in Q2): Exploring use-case driven content on MDN, didn't create a specific proposal here but will bring back up at the next in-person PAB meeting.
+* Opportunity to review: Suggested CDN for MDN to help with performance (note: this is already being considered as an opportunity by the MDN team). Will start with a performance audit in Q1, and then scope what it will take to implement CDN in 2018. Will review results of audit in Q2 meeting, then present at opportunity review for prioritization. This is a large effort that will fully occupy MDN’s dev resources.
+* Opportunity to review: Building  samples into structured data for search results
+* Opportunity to review: Figure out how to track success for data usage in external tools/apps. Maybe getting consent/approval for sharing usage data with Mozilla could help here, or we could look at coverage via specific tools. Will most likely require more qualitative data. Can see extension users, could use it at least for getting started.
+* Opportunity to review: Board supports a proposal to explore moving to github as the backend for all of MDN, including content. Google has hybrid content publishing model using github, will schedule time to discuss with broader MDN and Google teams.
+* Opportunity to review: Having shared definition and documentation on how to implement PWA’s across platforms/vendors would be helpful. There was some discussion in October (separately/outside of MDN PAB group, but including a few members) about creating a working group to figure out a shared definition of PWA’s between Mozilla, Samsung, Google, and Microsoft, PAB decided to try to make this happen. Chris Mills will reach out to the original group and see if progress can be made on this.
+* Opportunity to review: Web Bluetooth, Midi are priorities for Samsung. Midi specifically isn’t documented on MDN, so will look into adding Web Bluetooth, Web Midi to content roadmap.
+* Opportunity to review: Messages on reference pages need to have a clearer definition of what “on standards track” means, and also generally what warrants which warnings on a page.
+* Opportunity to review: Web Components are priority for Microsoft. Probably be outside of the quarterly meetings, get back with a heads up about priorities.
+* Opportunity to review:  Explore possibility of automation of compatibility information based on Web platform tests (WPT) and other data sources, and then fix the problems using manual work afterwards. Evaluate using Google Confluence as a bridge between MDN and WPT.
+* Opportunity to assess:  Add a useful feedback mechanism on MDN pages and extensions based on the data. For example, simple thumbs down widget that people can click if data is incorrect.
+* Opportunity to review: We should look to define guidelines on what "supported" means for aggregate features. What partial means, etc. E.g. if a single subfeature is not supported, does it count as the whole feature not being supported?  Core uses, edge case uses? Needs user testing/research?
+* Opportunity to review: MDN backend move to github. Start by socializinh concept with the MDN community and investigate what this would take to move forward is there is support. Need to prioritize deeper investigation and scoping.
+* Opportunity to review: using data outside of MDN include Including devtools, lighthouse, extensions, search result rich snippets (browser compat data, short summary, code samples). Board members committed to investigating best practices for various browsers
+* Opportunity to review: Drive to get broad agreement about the schema for copat data so there could be consistency between various sources of information to developers (e.g. MDN and caniuse)
+* Opportunity to Review: If you do put something experimental on MDN, have a button on the experimental banner that allows you to give feedback to the spec writers? Eg. Edge are currently looking at implementing this, they'd love your feedback on the feature.
+* Opportunity to review: check which browser data a PR changes with a GitHub hook, then add tags and assign reviews as appropriate. Flag PR for each browser and the vendors would assign a point person to look at flagged items.
+
+## ACTION ITEMS
+* - done  ACTION [Ali] Add localization as a working session topic to dive deeper tomorrow
+* ACTION [Kadir]: Get metrics by language as opposed to by country
+* ACTION [Kadir]: For metrics, comparison US vs. Europe as a whole would be helpful
+* - done- ACTION [ali]: Add working session for MDN mission statement wording.
+* - done- ACTION [ali]: Add structured data in search results to working session list…
+* ACTION [Kadir]: Look into getting permission to share remote user testing interviews with board members
+* ACTION [Kadir] Share current opportunity backlog
+* ACTION [Kadir]: Share opportunity assessment model with Google team
+* ACTION [Chris]: Review adding Web Bluetooth, Midi to content roadmap
+* ACTION [Chris]: Follow up on reviewing the current banners we show on reference pages; need to have a clearer definition of what “on standards track” means, and also generally what warrants which warnings on a page.
+* ACTION [Patrick]:  Do some triage on priorities for Web component docs and get back to us.
+* -done- ACTION [Dom] Create a (temporary) repo for the PAB and invite everyone on the board
+* ACTION [Chris]: Get info on how to migrate temp PAB repo to main MDN.
+* ACTION: [Chris]: Start working group to focus on “generic” PWA definition for MDN
+* ACTION [ali] Write up an Exec summary of changes or proposals in addition to detailed meeting notes.
+* ACTION [ali]: provide a mechanism for MDN team/contributors to submit asks for the board ahead of meetings.
+* ACTION [Robert]: report back on outcome of Google meeting in China
+* ACTION [Kadir/Robert] — see if the people who work on confluence/WPT could output the data in a useful format.
+* ACTION [everyone]: Everyone to check to see what their orgs are actually doing as far as updating compatibility data after each release. Implement a system to do this if not. Will report back on this next meeting.
+* ACTION [ Dan, Patrick/Erika, Meggin]: Designate a point person for compat data pull request reviews
+* ACTION [Kadir]: Create an opportunity assessment item for adding a feedback mechanism on BCD tables so someone can easily report incorrect data.
+* ACTION [Kadir] : (if they exist, share guidelines on what "supported" means with the group, get more feedback.
+* ACTION [PAB follow up, Kadir]: Work out what we need to put in the support summary banners. Write plan, do user testing, etc.
+* ACTION [ali]: Share Hack on MDN info with PAB.
+* ACTION [Kadir] follow up with PAB members and their teams on reviewing compat data PR’s
+* ACTION [Kadir]: Look at how to could check which browser data a PR changes with a GitHub hook, then add tags and assign reviews as appropriate.
+* ACTION [ali]: Ali to set up meeting with Meggin's team to discuss what tasks they had to go through when moving a project to GitHub.
+* ACTION [Erika]: Erika to pull up information on what they went through when moving MS docs to GitHub.
+* ACTION [Kadir]: Kadir to research deeper on migration (pros and cons), including limits to access to Github (China, embargoed countries)
+* ACTION [Kadir]: Get Meggin links to Kuma source code repo on Github
+* ACTION [Chris]: Chris to create a write up of this discussion and share these ideas with the MDN team and with the wider MDN community
+* ACTION [Kadir]: Kadir to scope github migration work with the dev team
+* ACTION [Kadir]: Review findings, start process for deciding if we put github platform migration on the roadmap.
+* ACTION [Meggin/Robert]:  find best practices for structured data for snippets
+* ACTION [Meggin/Robert]: Find out about search relationship like Wikipedia, talk to Ilya. What would be best to include in a snippet, best data to surface in results.
+* ACTION [Kadir] - research how we should be presented in search results. See what we could include, what our competitors and other sites include, etc.
+* ACTION [Dan] - contact Daniel Davis at DuckDuckGo about their snippets - see how they do it.
+* ACTION [Patrick] - contract Bing to see how they do snippets.
+* ACTION [Kadir]: to look into shield study
+* ACTION [Meggin]: Look into creating Chrome version of the compat extension.
+* ACTION [Patrick]:  Look into creating Edge version of the compat extension.
+* ACTION [Patrick]: intro Kadir to VSCode team
+* ACTION [Kadir]: Check whether the business logic of the compat-report extension is separate - so it can be shared with other extensions.
+* ACTION [Meggin]: Create an issue with the lighthouse team to start discussion about  compatibility data integration
+* ACTION [Patrick]: Create an issue with the sonar team to start discussion about compatibility data integration
+* ACTION [Kadir]: Rekindle conversations about including compat data in their products with editors like Atom, Sublime, etc.
+* ACTION [ Kadir] Talk to Fyrd about caniuse and MDN schema, would be great if we could all agree.
+* ACTION [ali]: Write up revenue ideas into a format that we can evaluate more effectively and allow PAB/others to contribute to fleshing ideas out more in depth.
+* ACTION [Robert]: Start thread on PAB email list to carry on with conversation about joint developer event under MDN brand.
+* ACTION [ali]:- Start mailing list conversation to lock down July F2F dates and location. Time limit of 2 weeks on it. Specifically July 19 & 20 in Boston.
+* ACTION [Chris]: Think about improving the experimental spec warning banner to also ask for feedback. What would this look like? Also, think about how I'd like to see the feedback loop between MDN and specs, e.g. adding more examples back into the specs.
+* ACTION [Kadir]: Start email item to further discuss getting developer feedback in APIs/usability studies?
+* ACTION [Dom]: Set up a meeting to discuss the W3C changes feedback loop further
+* ACTION [Chris]: Give Dom ideas on standards/style guides for explanatory text in specs, examples in specs, what constitutes a good example.
+
+## Attendees
+Ali Spivak (Mozilla), Kadir Topal (Mozilla), Chris Mills (Mozilla), Robert Nyman (Google), Meggin Kearney(Google), Dominique Hazael-Massieux (W3C), Erika Doyle Navara (Microsoft), Daniel Appelquist (Samsung), Patrick Kettner (Microsoft).
