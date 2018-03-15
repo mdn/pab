@@ -4,7 +4,10 @@ This is the GitHub repo for the [MDN Web Docs](https://developer.mozilla.org/) [
 
 ## Meetings
 
-You can find notes from our meetings in the [meeting-notes](meeting-notes) directory.
+You can find notes from our meetings in the [meeting-notes](meeting-notes) directory:
+
+* [January 2018 F2F meeting, Google London](meeting-notes/2018-01-notes.md)
+* [March 2018 video meeting](meeting-notes/2018-03-notes.md)
 
 # Other links
 
