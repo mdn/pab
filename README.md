@@ -13,4 +13,4 @@ You can find notes from our meetings in the [meeting-notes](meeting-notes) direc
 
 * [PAB Charter & Membership](https://developer.mozilla.org/en-US/docs/MDN/MDN_Product_Advisory_Board/Membership)
 * [Current PAB Members](https://developer.mozilla.org/en-US/docs/MDN/MDN_Product_Advisory_Board/Members)
-* [PAB Membership Application](https://www.dropbox.com/s/noj6vddhumhe9o0/MDN%20Product%20Advisory%20Board%20Interest%20Form.pdf?dl=0)
+* [PAB Membership Application](https://www.surveygizmo.com/s3/4024118/MDN-Advisory-Board-Application)
