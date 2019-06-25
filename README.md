@@ -6,6 +6,8 @@ This is the GitHub repo for the [MDN Web Docs](https://developer.mozilla.org/) [
 
 You can find notes from our meetings in the [meeting-notes](meeting-notes) directory:
 
+* [June 2019 F2F meeting, Mozilla Berlin](meeting-notes/2019-06-notes.md)
+* [January 2019 F2F meeting, Google New York](meeting-notes/2019-01-notes.md)
 * [July/August 2018 F2F meeting, Microsoft Seattle](meeting-notes/2018-07-notes.md)
 * [January 2018 F2F meeting, Google London](meeting-notes/2018-01-notes.md)
 * [March 2018 video meeting](meeting-notes/2018-03-notes.md)
