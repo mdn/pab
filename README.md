@@ -6,6 +6,7 @@ This is the GitHub repo for the [MDN Web Docs](https://developer.mozilla.org/) [
 
 You can find notes from our meetings in the [meeting-notes](meeting-notes) directory:
 
+* [January 2021 video call](meeting-notes/2021-01-notes.md)
 * [December 2020 video call](meeting-notes/2020-12-notes.md)
 * [July 2020 video call](meeting-notes/2020-07-notes.md)
 * [June 2020 video call](meeting-notes/2020-06-notes.md)
