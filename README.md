@@ -1,3 +1,5 @@
+**NB** We are archiving this repo in favor of the Google Group we now capture everything in. For more information on the PAB please see [https://developer.mozilla.org/en-US/about#our_partners](https://developer.mozilla.org/en-US/about#our_partners).
+
 # MDN Web Docs Product Advisory Board
 
 This is the GitHub repo for the [MDN Web Docs](https://developer.mozilla.org/) Product Advisory Board (MDN PAB).
