@@ -1,4 +1,4 @@
-**NB** We are archiving this repo in favour of the google group we now capture everything in. For more information on the PAB please see [https://developer.mozilla.org/en-US/about#our_partners](https://developer.mozilla.org/en-US/about#our_partners).
+**NB** We are archiving this repo in favor of the Google Group we now capture everything in. For more information on the PAB please see [https://developer.mozilla.org/en-US/about#our_partners](https://developer.mozilla.org/en-US/about#our_partners).
 
 # MDN Web Docs Product Advisory Board
 
